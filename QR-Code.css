@@ -1,0 +1,19 @@
+img {
+  max-width: 50%;
+  margin: auto 0px;
+}
+
+.bold-text {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+}
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
