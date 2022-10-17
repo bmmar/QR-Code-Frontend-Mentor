@@ -20,20 +20,20 @@ img {
   border-radius: 10%;
 }
 
-@media (min-width: 800px) {
-  .bold-text {
-    font-family: "Outfit", sans-serif;
-    font-weight: 700;
-    font-size: 30px;
-    text-align: center;
-    padding: 0 10%;
-  }
+@media (max-width: 480px) {
+    .bold-text{font-size: 0.938em;}
+
+}
+
+/* iphone */
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    .bold-text {font-size: 0.938em;}
 }
 
 .bold-text {
   font-family: "Outfit", sans-serif;
   font-weight: 700;
-  font-size: 10px;
+  font-size: 30px;
   text-align: center;
   padding: 0 10%;
 }
